@@ -1,0 +1,7 @@
+setwd('C:\Users\jiwon.DESKTOP-J6K6P2J\Desktop\스무슬리')
+nrow(unique(BR_FEATURE_ONEHOT))
+BR_FEATURE_ONEHOT = BR_FEATURE_ONEHOT[-c(1, 22), ]
+View(BR_FEATURE_ONEHOT)
+
+BR_NUM_INFO_ONEHOT = read.csv('BR_NUM_INFO_ONEHOT.csv')
+View(BR_NUM_INFO_ONEHOT)
